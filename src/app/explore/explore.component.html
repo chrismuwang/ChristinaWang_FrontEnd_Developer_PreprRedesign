@@ -1,1 +1,128 @@
-<p>explore works!</p>
+<html ng-app="explore">
+
+<head>
+    <title>Prepr - Explore</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.js"></script>
+    <script src="../../assets/js/scripts.js"></script>
+</head>
+
+<nav class="customnav">
+    <div class="container-fluid">
+        <div class="logo">
+            <a href="#">Your Logo</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="/challenges">Challenges</a></li>
+                <li><a href="/labs">Labs</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="">Profile</a></li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+
+<div class="bannerbg">
+    <div class="bannerlayer">
+        <div>
+            <img src="../../assets/images/preprlogo-white.png" class="overlaylogo">
+        </div>
+        <div class="center slogan">
+            <h2>co-LEARN. co-LAB. co-SOLVE.™</h2>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <br><br>
+    <div class="d-flex">
+
+        <h1 class="title">EXPLORE</h1>
+
+        <!-- <div class="d-flex justify-content-center"> -->
+        <div class="container-fluid">
+            <br><br><br><br>
+            <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                        aria-controls="home" aria-selected="true">
+                        <h4 class="tabtitle">Challenges</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                        aria-controls="profile" aria-selected="false">
+                        <h4 class="tabtitle">Labs</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                        aria-controls="contact" aria-selected="false">
+                        <h4 class="tabtitle">Projects</h4>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div style="background-color: white;">
+
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <br><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="../../assets/images/challenge1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">COVID-19 Challenge - Low-cost monitoring system for COVID-19 patients
+                            </h5>
+                            <p class="card-text">NRC is seeking a low cost system (unit cost $25) that can continuously
+                                measure temperature,
+                                peripheral capillary oxygen saturation (SpO2), blood pressure (BP), pulse and
+                                respiration rates, and transmit this information wirelessly to a base station for
+                                COVID-19 patient monitoring in locales including ERs, general wards, communities and
+                                homes.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="../../assets/images/challenge1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="../../assets/images/challenge1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    </div>
+
+</div>
+<div class="container-fluid" style="height: 30px"></div>
+</html>

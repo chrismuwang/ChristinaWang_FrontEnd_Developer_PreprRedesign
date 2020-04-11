@@ -8,6 +8,10 @@ import { ProjectsComponent } from './projects/projects.component';
 import { LabsComponent } from './labs/labs.component';
 import { ChallengesComponent } from './challenges/challenges.component';
 import { ChallengeDetailsComponent } from './challenges/challenge-details/challenge-details.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +24,10 @@ import { ChallengeDetailsComponent } from './challenges/challenge-details/challe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    NgbModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,117 @@
+
+.container-fluid{
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px 25px;
+}
+
+p{
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    color:gray;
+    font-size: 16px;
+}
+
+.challengeimg{
+    max-width: 35vw;
+}
+
+.container{
+    width: 100%;
+    margin: 30px;
+}
+
+.card{
+    background-color: white;
+}
+
+.tab-content{
+    background-color: white;
+    height: 90vh;
+    margin: 0px 25px;
+    padding: 20px;
+    border-color: #dee2e6;
+}
+
+.tab-pane{
+    background-color: white;
+}
+
+.title{
+    margin: 15px 50px 5px;
+}
+
+.bannerbg {
+    max-width: 100%;
+    height: 70vh;
+    margin: 0;
+    display: flex;
+    background-image: url('../../assets/images/banner.jpg');
+    background-position: center top;
+	background-size: cover;
+}
+
+.bannerlayer {
+    background-color: rgba(47,177,99, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+}
+
+.overlaylogo {
+    position: absolute;
+    top: 12vh;
+    left: 60vh;
+    max-width: 70vh;
+    display: flex;
+}
+
+.slogan{
+    position: absolute;
+    color: white;
+    top: 50vh;
+    left: 60vh;
+}
+
+h1{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8vh;
+    font-weight: 900;
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: #fff;
+    border-radius: 0;
+
+}
+
+.card{
+    max-height: 10vh;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: #8c6;
+    border-color: white;
+    border-radius: 0;
+  }
+
+.nav-link{
+    background-color: #8c6;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+/*-- Inspiration taken from abdo steif -->
+/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
+/* Navbar section */
+
