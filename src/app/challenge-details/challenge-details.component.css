@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+.bg{
+    height: 65px;
+    background-color: #000;
+}
+
+.body{
+    background-color: whitesmoke;
+}
+
+p{
+    margin-bottom: auto;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: white;
+    color: #8c6;
+    border-color: white;
+    border-radius: 0;
+    font-weight: 900;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom: none;
+  }
+
+.bottom{
+    margin-top: auto;
+}
+
+  .del{
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      color:darkred;
+      padding: 3px 5px;
+  }
+
+  .fa-trash-o, .fa-eye-slash {
+      color: darkred;
+  }
+
+  h4{
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .namsg{
+      font-size: 1.3rem;
+  }
+
+  .subtitle{
+      font-weight: bolder;
+      color: #484848;
+  }
+
+  .buttoncontainer{
+      vertical-align: bottom;
+  }
+
+  .name-link{
+      color: #484848;
+  }
+
+  .name-link:hover{
+      text-decoration: none;
+  }
+
+  .btn{
+      margin: 10px 5px;
+  }
+
+  .desc{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.projectimg{
+    width: 100%;
+}
+
+.projectimgsmall{
+    width: 100%;
+    padding: 10px;
+}
+
+  .tabtitle{
+      /* font-weight: bold; */
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+  }
+
+  .tab-content{
+    margin: 0px 15px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+
+  .add{
+      color: green;
+      font-family: 'Poppins', sans-serif;
+      margin: 20px 35px 0px;
+      padding: 0px;
+  }
+
+  .fa {
+      font-size: 15px;
+  }
+
+.nav-link{
+    color: white;
+    background-color: #8c6;
+    font-weight: 900;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom: none;
+    margin: 0px;
+}
+
+:host /deep/ .card-body {
+    padding: 5px 30px;
+}
+
+:host /deep/ .card {
+    border:none;
+    background-color: white;
+}
+  
+:host /deep/ .card-header {
+    /* border-top: 1px solid rgba(0, 0, 0, 0.125);
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    border-right: 1px solid rgba(0, 0, 0, 0.125); */
+    border-bottom: none;
+    background-color: white;
+    width: 100%;
+    padding:0px;
+}
+
+.fa-chevron-down{
+    color: rgba(47,177,99, 0.8)
+}
+.btn-link:hover{
+    font-weight: bold;
+    text-decoration: none!important;
+ }
+  
+:host /deep/ .card-block {
+    text-align: left;
+}  
+
+.customnav{
+    padding: 0px 10px;
+}
+
+.title{
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+h1{
+    color: rgba(47,177,99, 0.8);
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.collapse, .collapse.in {
+    display: block !important;
+    transition: all .25s ease-in-out;
+  }
+  
+  .collapse {
+   opacity: 0;
+   height: 0;
+  }
+  
+  .collapse.in {
+    opacity: 1;
+    height: 100%;
+  }
+
+  .container-fluid.content{
+      padding: 0px 60px;
+      background-color: whitesmoke;
+      width: 100%;
+  }
+
+  .container-fluid.bgcontent{
+      height: 100%;
+      background-color: whitesmoke;
+  }
+
+  .container{
+      background-color: white;
+      max-width: 90%;
+      margin: 10px 20x;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+
+  .fa{
+      font-size: 18px;
+  }
+
+  .h2{
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .subtitle{
+    font-weight: bolder;
+    color: #484848;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+hr{
+    margin: 5px;
+}
+
+.button-txt{
+    font-size: 1rem;
+}
+
+.challenge-title{
+    font-weight: 900;
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+}
+
+.span-txt, li{
+    font-weight: normal;
+    padding: 0px 5px;
+}
+
+.col-md-8{
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.subtitle-med{
+    color: rgba(47,177,99);
+    font-size: 1.5rem;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subtitle-small{
+    color: #686868;
+    font-size:1.2rem;
+    padding: 2px 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-change{
+    font-family: 'Poppins', sans-serif;
+}
+
+  

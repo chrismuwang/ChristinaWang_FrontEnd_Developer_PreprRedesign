@@ -4,10 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExploreComponent } from './explore/explore.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { LabsComponent } from './labs/labs.component';
-import { ChallengesComponent } from './challenges/challenges.component';
-import { ChallengeDetailsComponent } from './challenges/challenge-details/challenge-details.component';
+import { MyWorkComponent } from './my-work/mywork.component';
+import { ChallengeDetailsComponent } from './challenge-details/challenge-details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
@@ -17,9 +15,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
   declarations: [
     AppComponent,
     ExploreComponent,
-    ProjectsComponent,
-    LabsComponent,
-    ChallengesComponent,
+    MyWorkComponent,
     ChallengeDetailsComponent
   ],
   imports: [

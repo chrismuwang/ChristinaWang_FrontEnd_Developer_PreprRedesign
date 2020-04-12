@@ -1,22 +1,16 @@
 <nav class="customnav">
     <div class="container-fluid">
         <div class="logo">
-            <a href="#">Your Logo</a>
+            <a href="#"><img class="logo-img" src="../../assets/images/preprlogo-white.png"></a>
         </div>
         <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
-                <li><a href="/challenges">Challenges</a></li>
-                <li><a href="/labs">Labs</a></li>
-                <li><a href="/projects">Projects</a></li>
+                <li><a href="">Explore</a></li>
+                <li><a href="/my-work">My Work</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="">Profile</a></li>
             </ul>
         </div>
-        <span class="navTrigger">
-            <i></i>
-            <i></i>
-            <i></i>
-        </span>
     </div>
 </nav>
 
@@ -24,7 +18,7 @@
 </div>
 <div class="container-fluid bgcontent">
     <div class="title center">
-        <h1>MY WORK</h1>
+        <h1 style="color: #303030">MY WORK</h1>
     </div>
     <div class="container-fluid content">
         <ngb-accordion>
@@ -32,7 +26,7 @@
                 <ng-template ngbPanelTitle>
                     <div class="justify-content-between" style="justify-content: space-between; max-width: 100%">
                         <div class="d-flex pull-left" style="color: #303030;">
-                            <h4 class="tabtitle" style="font-size: 28px; font-weight: bolder">Projects</h4>
+                            <h4 class="tabtitle" style="font-size: 28px;">Projects</h4>
                         </div>
                         <div class="pull-right"><i class="fa fa-chevron-down"></i></div>
                     </div>
@@ -65,16 +59,16 @@
                                 <br>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div><img class="projectimg" src="../../assets/images/projectimg.png"></div>
+                                        <div><a href="/challenge-details"><img class="projectimg" src="../../assets/images/projectimg.png"></a></div>
                                     </div>
                                     <div class="col-md-8" style="padding: 10px; color: #585858">
-                                        <h4 class="subtitle">Front-End Developer Work Challenge</h4>
+                                        <h4 class="subtitle"><a class="name-link" href="/challenge-details">Front-End Developer Work Challenge</a></h4>
                                         <p class="desc">Redesign of a few key prepr webpages built with Angular and
                                             Bootstrap.</p>
                                         <br>
                                         <div class="d-flex pull-right">
-                                            <div class="bottom"><a><span class="del">Delete</span><i class="fa fa-trash-o"
-                                                        aria-hidden="true"></i></a></div>
+                                            <div class="bottom"><a><span class="del">Delete</span><i
+                                                        class="fa fa-trash-o" aria-hidden="true"></i></a></div>
                                         </div>
                                         <!-- <div class="d-flex buttoncontainer justify-content-center">
                                     <button type="button" class="btn btn-success mt-auto">Success</button>
@@ -85,16 +79,16 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div><img class="projectimg" src="../../assets/images/projectimg.png"></div>
+                                        <div><a href="/challenge-details"><img class="projectimg" src="../../assets/images/projectimg.png"></a></div>
                                     </div>
                                     <div class="col-md-8" style="padding: 10px; color: #585858">
-                                        <h4 class="subtitle">Front-End Developer Work Challenge</h4>
+                                        <h4 class="subtitle"><a class="name-link" href="/challenge-details">Front-End Developer Work Challenge</a></h4>
                                         <p class="desc">Redesign of a few key prepr webpages built with Angular and
                                             Bootstrap.</p>
                                         <br>
                                         <div class="d-flex pull-right">
-                                            <div class="bottom"><a><span class="del">Delete</span><i class="fa fa-trash-o"
-                                                        aria-hidden="true"></i></a></div>
+                                            <div class="bottom"><a><span class="del">Delete</span><i
+                                                        class="fa fa-trash-o" aria-hidden="true"></i></a></div>
                                         </div>
                                         <!-- <div class="d-flex buttoncontainer justify-content-center">
                                     <button type="button" class="btn btn-success mt-auto">Success</button>
@@ -105,16 +99,16 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div><img class="projectimg" src="../../assets/images/projectimg.png"></div>
+                                        <div><a href="/challenge-details"><img class="projectimg" src="../../assets/images/projectimg.png"></a></div>
                                     </div>
                                     <div class="col-md-8" style="padding: 10px; color: #585858">
-                                        <h4 class="subtitle">Front-End Developer Work Challenge</h4>
+                                        <h4 class="subtitle"><a class="name-link" href="/challenge-details">Front-End Developer Work Challenge</a></h4>
                                         <p class="desc">Redesign of a few key prepr webpages built with Angular and
                                             Bootstrap.</p>
                                         <br>
                                         <div class="d-flex pull-right">
-                                            <div class="bottom"><a><span class="del">Delete</span><i class="fa fa-trash-o"
-                                                        aria-hidden="true"></i></a></div>
+                                            <div class="bottom"><a><span class="del">Delete</span><i
+                                                        class="fa fa-trash-o" aria-hidden="true"></i></a></div>
                                         </div>
                                         <!-- <div class="d-flex buttoncontainer justify-content-center">
                                     <button type="button" class="btn btn-success mt-auto">Success</button>
@@ -125,7 +119,10 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="invprojects" role="tabpanel" aria-labelledby="invprojects-tab">
-                            ...</div>
+                            <div class="d-flex justify-content-center">
+                                <h4 class="namsg"> You haven't been invited to collaborate on any projects yet.</h4>
+                            </div>
+                        </div>
                     </div>
 
                 </ng-template>
@@ -134,7 +131,7 @@
                 <ng-template ngbPanelTitle>
                     <div class="justify-content-between" style="justify-content: space-between; max-width: 100%">
                         <div class="d-flex pull-left" style="color: #303030;">
-                            <h4 class="tabtitle" style="font-size: 28px; font-weight: bolder">Labs</h4>
+                            <h4 class="tabtitle" style="font-size: 28px;">Labs</h4>
                         </div>
                         <div class="pull-right"><i class="fa fa-chevron-down"></i></div>
                     </div>
@@ -148,9 +145,9 @@
             </ngb-panel>
             <ngb-panel>
                 <ng-template ngbPanelTitle>
-                    <div class="justify-content-between" style="justify-content: space-between; max-width: 100%">
+                    <div class="d-flex justify-content-between" style="justify-content: space-between; max-width: 100%">
                         <div class="d-flex pull-left" style="color: #303030;">
-                            <h4 class="tabtitle" style="font-size: 28px; font-weight: bolder">Challenges</h4>
+                            <h4 class="tabtitle" style="font-size: 28px;">Challenges</h4>
                         </div>
                         <div class="pull-right"><i class="fa fa-chevron-down"></i></div>
                     </div>
@@ -182,16 +179,18 @@
                                 <br>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div><img class="projectimg" src="../../assets/images/projectimg.png"></div>
+                                        <div><a href="/challenge-details"><img class="projectimg" src="../../assets/images/projectimg.png"></a></div>
                                     </div>
                                     <div class="col-md-8" style="padding: 10px; color: #585858">
-                                        <h4 class="subtitle">Front-End Developer Work Challenge</h4>
+                                        <h4 class="subtitle"><a class="name-link" href="/challenge-details">Front-End Developer Work Challenge</a></h4>
                                         <p class="desc">Redesign of a few key prepr webpages built with Angular and
                                             Bootstrap.</p>
                                         <br>
                                         <div class="d-flex pull-right">
-                                            <div><a><span class="del">Unfollow</span><i class="fa fa-eye-slash"
-                                                        aria-hidden="true"></i></a></div>
+                                            <a><span>Share</span>&nbsp;<i class="fa fa-share-alt"></i></a>
+                                            &nbsp;&nbsp;
+                                            <a><span class="del">Unfollow</span><i class="fa fa-eye-slash"
+                                                    aria-hidden="true"></i></a>
                                         </div>
                                         <!-- <div class="d-flex buttoncontainer justify-content-center">
                                         <button type="button" class="btn btn-success mt-auto">Success</button>
@@ -202,17 +201,18 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div><img class="projectimg" src="../../assets/images/projectimg.png"></div>
+                                        <div><a href="/challenge-details"><img class="projectimg" src="../../assets/images/projectimg.png"></a></div>
                                     </div>
                                     <div class="col-md-8" style="padding: 10px; color: #585858">
-                                        <h4 class="subtitle">Front-End Developer Work Challenge</h4>
+                                        <h4 class="subtitle"><a class="name-link" href="/challenge-details">Front-End Developer Work Challenge</a></h4>
                                         <p class="desc">Redesign of a few key prepr webpages built with Angular and
                                             Bootstrap.</p>
                                         <br>
                                         <div class="d-flex pull-right">
-                                            <div><a><span class="del">Unfollow</span><i class="fa fa-eye-slash"
-                                                        aria-hidden="true"></i>
-                                                </a></div>
+                                            <a><span>Share</span>&nbsp;<i class="fa fa-share-alt"></i></a>
+                                            &nbsp;&nbsp;
+                                            <a><span class="del">Unfollow</span><i class="fa fa-eye-slash"
+                                                    aria-hidden="true"></i></a>
                                         </div>
                                         <!-- <div class="d-flex buttoncontainer justify-content-center">
                                         <button type="button" class="btn btn-success mt-auto">Success</button>
@@ -223,21 +223,18 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div><img class="projectimg" src="../../assets/images/projectimg.png"></div>
+                                        <div><a href="/challenge-details"><img class="projectimg" src="../../assets/images/projectimg.png"></a></div>
                                     </div>
                                     <div class="col-md-8" style="padding: 10px; color: #585858">
-                                        <h4 class="subtitle">Front-End Developer Work Challenge</h4>
+                                        <h4 class="subtitle"><a class="name-link" href="/challenge-details">Front-End Developer Work Challenge</a></h4>
                                         <p class="desc">Redesign of a few key prepr webpages built with Angular and
                                             Bootstrap.</p>
                                         <br>
-                                        <div class="d-flex align-bottom">
-                                            <div class="pull-left">
-                                                <a><span class="icon"></span><i class="fas fa-share-alt"></i></a>
-                                            </div>
-                                            <div class="pull-right">
-                                                <a><span class="del">Unfollow</span><i class="fa fa-eye-slash"
-                                                        aria-hidden="true"></i></a>
-                                            </div>
+                                        <div class="d-flex pull-right">
+                                            <a><span>Share</span>&nbsp;<i class="fa fa-share-alt"></i></a>
+                                            &nbsp;&nbsp;
+                                            <a><span class="del">Unfollow</span><i class="fa fa-eye-slash"
+                                                    aria-hidden="true"></i></a>
                                         </div>
                                         <!-- <div class="d-flex buttoncontainer justify-content-center">
                                         <button type="button" class="btn btn-success mt-auto">Success</button>
@@ -248,7 +245,11 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="submchall" role="tabpanel" aria-labelledby="submittedchall-tab">
-                            ...</div>
+                            <div class="d-flex justify-content-center" style="padding: 20px; text-align: center">
+                            <h4 class="namsg">You haven't submitted any challenges. <a class="namsg"
+                                href="">Explore</a> and find challenges for you that solve real-world problems!</h4>
+                            </div>
+                        </div>
                     </div>
 
                 </ng-template>
