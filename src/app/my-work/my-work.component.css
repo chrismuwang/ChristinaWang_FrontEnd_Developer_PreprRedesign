@@ -2,10 +2,10 @@
 
 .bg{
     height: 65px;
-    background-color: rgba(47,177,99);
+    background-color:#000;
 }
 
-.body{
+body{
     background-color: whitesmoke;
 }
 

@@ -55,6 +55,22 @@ p{
     color: rgba(47,177,99)
 }
 
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
 .nav-link:hover{
     color:white;
 }
@@ -127,6 +143,10 @@ h1{
 
 .card{
     max-height: 10vh;
+}
+
+.page-link{
+    color: rgba(47,177,99)
 }
 
 html,

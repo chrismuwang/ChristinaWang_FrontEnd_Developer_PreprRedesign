@@ -5,8 +5,9 @@
     background-color: #000;
 }
 
-.body{
+body{
     background-color: whitesmoke;
+    height: auto;
 }
 
 p{
